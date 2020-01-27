@@ -3,7 +3,8 @@
 // convenience to get you started writing code faster.
 //
 
-export const colorCode = () => {
+export const colorCode = (code) => {
+  return COLORS[code]
 };
 
-export const COLORS = undefined;
+export const COLORS = ["Black"];
