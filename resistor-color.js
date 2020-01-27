@@ -7,4 +7,4 @@ export const colorCode = (code) => {
   return COLORS[code]
 };
 
-export const COLORS = ["Black"];
+export const COLORS = ["Black", "Brown"];

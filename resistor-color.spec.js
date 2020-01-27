@@ -8,4 +8,8 @@ describe("colorCode", () => {
   test("it returns 'Brown' when given the number 1.", () => {
     expect(colorCode(1)).toEqual("Brown")
   })
+
+  test("it returns 'Red' when given the number 2.", () => {
+    expect(colorCode(2)).toEqual('Red')
+  })
 })
