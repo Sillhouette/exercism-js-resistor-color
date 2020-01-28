@@ -3,8 +3,8 @@
 // convenience to get you started writing code faster.
 //
 
-export const colorCode = (code) => {
-  return COLORS[code]
+export const colorCode = (color) => {
+  return COLORS.indexOf(color)
 };
 
-export const COLORS = ["Black", "Brown", "Red", "Orange", "Yellow", "Green", "Blue", "Violet", "Grey", "White"];
+export const COLORS = ["black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"];
